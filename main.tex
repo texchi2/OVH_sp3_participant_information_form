@@ -2,16 +2,30 @@
 \usepackage[utf8]{inputenc}
 \usepackage{outlines}
 
+\usepackage{lastpage}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Version 1.0/20220627}
+%\lhead{Guides and tutorials}
+\cfoot{Page \thepage\ of \pageref{LastPage}} 
+
+
+
 \title{Case Report Form}
 %OVH_sp3_participant_information_form}
 %\author{Li-Hsing Chi}
-\date{Version 1 (\today)}
+\date{} %{Version 1 (\today)}
 
 \begin{document}
-                          
 
+%\pagestyle{myheadings}
 \maketitle
+% *** after \begin and \maketitle
+\thispagestyle{fancy} 
 
+%\header{Version 1.0/20220627}
 %\section{Introduction}
 %範例2：請勿設計會洩漏個資的欄位，如姓名、電話、病歷號
 
